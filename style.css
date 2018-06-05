@@ -1,0 +1,27 @@
+#title {
+  text-align: center;
+}
+
+#scatterplot {
+  display: block;
+  margin: 0 auto;
+}
+
+#tooltip {
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  background-color: lightblue;
+  padding: 10px;
+  font-size: 1.3em;
+  border-radius: 5px;
+}
+
+.dot {
+  opacity: 0.7;
+}
+
+.dot:hover {
+  opacity: 1;
+  cursor: pointer;
+}
